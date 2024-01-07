@@ -1,3 +1,18 @@
+#Level 2: Real-Time Medicinal Quest
+#Mission: Craft a dynamic script, preferably in Python (but feel free to flex your language of choice!), 
+#to scrape real-time data for a specified medicine. User-entered URL and pincode shall unveil the 
+#medicine's availability and delivery date (scrape from tata 1mg).(Try to keep the time between the input 
+#and output less than 40 sec).
+
+#Input:
+#Make an API having two parameters: 
+#Url of the medicine
+#Pincode entered by the user 
+
+#Output:
+#According to the pincode entered by the user you have to check the price and availability of the medicine in that area.
+
+
 #scrapper_pincode
 
 from selenium import webdriver
